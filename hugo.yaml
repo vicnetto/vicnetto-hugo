@@ -1,0 +1,88 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: vicnetto
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+# Number of pages for pagination
+pagination:
+  disableAliases: false
+  pagerSize: 6
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu: # Define toolbar menu
+      main:
+        - name: projects
+          url: projects/
+          weight: 1
+        - name: resumé
+          url: resume/
+          weight: 2
+        - name: about
+          url: about/
+          weight: 3
+
+params:
+  mainsections: ["posts", "papermod"]
+  defaultTheme: dark # Default to dark for better visualization
+  disableThemeToggle: true
+
+  assets:
+    favicon: "assets/favicon.ico"
+    favicon16x16: "assets/favicon-16x16.png"
+    favicon32x32: "assets/favicon-32x32.png"
+    apple_touch_icon: "assets/apple-touch-icon.png"
+    safari_pinned_tab: "assets/safari-pinned-tab.svg"
+
+  label:
+    text: "vicnetto"
+    icon: favicons/mstile-150x150.png
+    iconHeight: 20
+
+  profileMode:
+    enabled: true
+    title: Victor de Moura Netto
+    imageUrl: "https://avatars.githubusercontent.com/u/49786541?v=4"
+    imageTitle: GitHub Profile Picture
+    # imageWidth: 120
+    # imageHeight: 120
+    subtitle: |
+      {{< rawhtml >}}
+        <p class="speshal-fancy-custom">
+          🇧🇷 🇫🇷 <br/>
+          Vim enthusiast, use spaces over tabs, and never crashed a program.
+        </p>
+      {{< /rawhtml >}}
+    buttons:
+      - name: projects
+        url: projects/
+      - name: resumé
+        url: resume/
+      - name: about
+        url: about/
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/vicnetto"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/vicnetto/"
+    - name: "email"
+      url: "mailto:victorhmnetto@gmail.com"
