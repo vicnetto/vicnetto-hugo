@@ -1,8 +1,7 @@
 ---
 title: resumé
 permalink: /resume/
-layout: page
-comments: false
+layout: single
 ---
 
 {{< rawhtml >}}

@@ -1,6 +1,7 @@
 ---
 date: '2019-07-01T00:00:00-03:00'
 title: Amia::Mond
+layout: single
 cover:
   image: 'img/amia-menu.png'
   alt: "Amia::Mond logo"

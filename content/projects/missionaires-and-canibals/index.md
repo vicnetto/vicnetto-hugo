@@ -1,6 +1,7 @@
 ---
 date: '2020-02-28T00:00:00-03:00'
 title: 'Missionaries and Cannibals'
+layout: single
 cover:
   image: 'img/missionaires-menu.png'
   alt: "Missionaries and Cannibals logo"

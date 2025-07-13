@@ -1,6 +1,7 @@
 ---
 date: '2020-07-02T00:00:00-03:00'
 title: TicTacToe with MINIMAX
+layout: single
 cover:
   image: 'img/tic-tac-toe.png'
   alt: "Tic-Tac-Toe logo"

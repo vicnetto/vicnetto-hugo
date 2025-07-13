@@ -2,6 +2,7 @@
 title: about
 url: /about/
 summary: about
+layout: single
 ---
 
 {{< rawhtml >}}
