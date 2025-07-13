@@ -1,6 +1,7 @@
 ---
 date: '2023-08-16T00:00:00-03:00'
 title:  SNI-Changer using Mitm-Proxy
+layout: single
 cover:
   image: 'img/sni-changer.png'
   alt: "Missionaries and Cannibals logo"
