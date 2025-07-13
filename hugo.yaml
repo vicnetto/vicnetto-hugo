@@ -54,8 +54,8 @@ params:
 
   label:
     text: "vicnetto"
-    icon: favicons/mstile-150x150.png
-    iconHeight: 20
+    # icon: assets/android-chrome-512x512.png
+    # iconHeight: 20
 
   profileMode:
     enabled: true
