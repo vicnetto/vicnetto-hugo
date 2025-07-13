@@ -1,0 +1,27 @@
+.cv-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap; /* On small screens */
+  margin-top: 2rem;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag-wrapper {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.flag-wrapper:hover {
+  opacity: 0.7;
+}
+
+.flag {
+  height: 50px;
+}
