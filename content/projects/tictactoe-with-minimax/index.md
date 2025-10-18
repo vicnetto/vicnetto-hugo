@@ -5,28 +5,29 @@ layout: single
 cover:
   image: 'img/tic-tac-toe.png'
   alt: "Tic-Tac-Toe logo"
-  caption: "Missionaries and Cannibals logo"
   hidden: false
-summary: "Game developed."
+summary: " "
 tags: [python, MINIMAX, AI]
-weight: 3
+weight: 0
 ---
 
-TicTacToe is a classic game, very known by almost every novice programmer (and the rest of the word, of course). Different from the others, this game uses an algorithm called: "Minimax". In the hardest mode, the AI basically runs in between every possible moves, looking only for a win or a draw.
+**TicTacToe** is a classic two-player game where opponents take turns marking spaces on a three-by-three grid, one playing as **X** and the other as **O**.
+
+This version uses the **Minimax** algorithm. In the hardest mode, the AI evaluates every possible move to find the best outcome, always aiming to win or, at the very least, force a draw.
 
 ## Technologies Used
 
-The game was developed using only the **Python** programming language, and the terminal was used to display the game board and perform actions within the game.
+The game was developed using **Python**, using the terminal to display the board and handle player interactions.
 
-## Gameplay
+## Figure
 
 {{< rawhtml >}}
 <figure style="display: flex; flex-direction: column; align-items: center; margin: 0;">
   <img src="img/tic-tac-toe.gif" style="display: block; max-width: 100%; height: auto;" />
-  <figcaption style="text-align: center;">Figure 1. Draw example.</figcaption>
+  <figcaption style="text-align: center;">Figure 1. Match between a user and the AI in hard mode.</figcaption>
 </figure>
 
 <div align="center" style="padding-top: 16px">
-See more on <a href="https://github.com/vicnetto/TicTacToeWithAI" target="_blank" rel="noopener">github</a>!
+  Check out more on <a href="https://github.com/vicnetto/TicTacToeWithAI" target="_blank" rel="noopener">GitHub</a>!
 </div>
 {{< /rawhtml >}}
