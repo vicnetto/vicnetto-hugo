@@ -71,13 +71,13 @@ params:
           Vim enthusiast, use spaces over tabs, and never crashed a program.
         </p>
       {{< /rawhtml >}}
-    buttons:
-      - name: projects
-        url: projects/
-      - name: resumé
-        url: resume/
-      - name: about
-        url: about/
+    # buttons:
+    #   - name: projects
+    #     url: projects/
+    #   - name: resumé
+    #     url: resume/
+    #   - name: about
+    #     url: about/
 
   socialIcons: # optional
     - name: "github"
